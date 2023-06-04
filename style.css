@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 header {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 200;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 100px 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 header .logo {
     position:static;
     max-width: 80px;
+    padding: 20px 100px ;
 }
 header ul {
     position: fixed;
@@ -34,6 +37,7 @@ body {
     font: #313;
 }
 .content {
+    padding-left: 20px;
     position: relative;
     width: 100%;
     display: flex;
@@ -41,30 +45,35 @@ body {
     align-items: center;
 }
 .content .textBox {
+    padding-left: 20px;
     position: relative;
     max-width: 600px;
 }
-.content .textBox h2{
-    color: #fff;
+.content .textBox h1{
+    color: #040405;
     font-size: 4em;
     line-height: 1.5em;
     font-weight: 900;
     text-transform: uppercase;
+
 }
-.content .textBox h2 span {
+.content .textBox h1 span {
     font-size: 2em;
 }
-.content .textBox p {
-    color: #fff;
+.content .textBox h2 {
+    color: #313131;
+    font-size: 2em;
 }
 .container {
     display: flex;
 }
 .card {
+    padding-inline: 2px;
     flex: 1;
     overflow: hidden;
 }
 .card img {
+    
     object-fit: cover;
     filter: grayscale(1);
 }
